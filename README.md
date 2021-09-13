@@ -1,2 +1,2 @@
-# mitrovicb.github.io
-My portfolio website
+# personal-portfolio
+My personal portfolio website

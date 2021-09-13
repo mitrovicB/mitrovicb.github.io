@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Branka Mitrovic</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <!--div class="logo">
+                <img src="./img/logo-transparent.png" alt="logo">
+            </div-->
+            <button class="nav-toggle" aria-label="toggle navigation"><span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I am <strong>Branka Mitrovic</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Junior Web developer</p>
+            <img src="img/profile_img.jpeg" alt="a picture of Branka" class="intro__img">
+        </section>
+
+        <!-- My skills-->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title section__title--skills">What I do</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Front-End Development</h3>
+                    <p>As a Frontend Developer I use HTML to lay out a document’s general structure and content, CSS for styling and JavaScript for situations that require advanced interactivity. I work with some libraries like jQuery and React.js and design frameworks like Bootstrap.</p>
+                </div> <!-- / skill -->
+                <div class="skill">
+                    <h3>Back-End Development</h3>
+                    <p>As a Backend Developer, I mainly deal with managing the exchange of data between the server and the users.
+                    Also, I work with databases and access MySQL or MongoDB by using Node.js.
+                    You can scroll down to check which technologies I've learnt and worked with recently.
+                    </p>
+                </div> <!-- / skill -->
+                
+                <div class="skill">
+                    <h3>MERN Stack</h3>
+                    <p>While I'm working on my projects, my daily challenges mainly consist of MySQL/MongoDB, Express.js, ReactJS and Node.js. MERN is a full-stack, following the traditional 3-tier architectural pattern, including the front-end display tier (React.js), application tier (Express.js and Node.js), and database tier (MongoDB). </p>
+                </div> <!-- / skill -->
+            </div> <!-- / skills-->
+
+            <div class="skill-container">
+                <!-- Frontend -->
+                <img src="./img/skills/html-5.png" alt="html-5" class="skill-icon">
+                <img src="./img/skills/css.png" alt="css" class="skill-icon">
+                <img src="./img/skills/javascript.png" alt="javascript" class="skill-icon">
+            
+                <img src="./img/skills/api-icon.png" alt="restful-api" class="skill-icon">
+                <img src="./img/skills/android-icon.png" alt="android-icon" class="skill-icon">
+                <img src="./img/skills/rwd-icon.png" alt="responsive-web-design" class="skill-icon">
+                <!-- Backend -->
+                <img src="./img/skills/nodejs.png" alt="nodejs" class="skill-icon">
+                <img src="./img/skills/mongodb.png" alt="mongodb" class="skill-icon">
+                <img src="./img/skills/mysql.png" alt="mysql" class="skill-icon">
+                <img src="./img/skills/reactjs.png" alt="reactjs" class="skill-icon">
+            </div>
+         
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who am I</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="about-me__body">
+                <p>Hi, my name is Branka and I am Junior Web Developer based in Banja Luka, Bosnia and Herzegovina.<br>
+                I believe that <i>the best way to learn and grow is by getting out of your comfort zone</i>. <br>
+                So, every day I wake up ready for new challenges. <br>
+                The day I was introduced to programming by my friend I realized whole new world has been revealed to me. 
+                From then I enjoy learning new things, working on projects, dealing with bugs and solving problems. </p>
+                On weekends, I like spending time in nature, cooking delicious meals and reading books.
+            </div>
+
+            <img class="about-me__img" src="img/img22.jpeg" alt="">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Here are some of my individual projects:</p>
+
+            <div class="portfolio">
+                <!-- Portfolio Item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/projects/lib.jpeg" alt="Virtual library" title="Virutal Library" class="portfolio__img">
+                </a>
+                <!-- Portfolio Item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/projects/advokatska-kancelarija.png" alt="Law_firm_website" title="Law Firm Website" class="portfolio__img">
+                </a>
+                <!-- Portfolio Item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/projects/chuck_api.png" alt="Chuck API" title="Chuck Noris Jokes" class="portfolio__img">
+                </a>
+                <!-- Portfolio Item 04 -->
+                <a href="#" class="portfolio__item">
+                <img src="img/projects/tic-tac-toe.png" alt="Tic-tac-toe" title="Tic Tac Toe" class="portfolio__img">
+                </a>
+                <!-- Portfolio Item 05 >
+                <a href="#" class="portfolio__item">
+                    <img src="img/projects/quiz.png" alt="Quiz game" class="portfolio__img">
+                </a>
+                < Portfolio Item 06 >
+                <a href="#" class="portfolio__item">
+                    <img src="img/projects/calculator.png" alt="Calculator" class="portfolio__img">
+                </a>
+                < Portfolio Item 07 >
+                <a href="project-pages/hangman.html" class="portfolio__item">
+                    <img src="img/projects/hangman._v2.png" alt="Hangman" class="portfolio__img">
+                </a-->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <p>I'm currently available for freelance projects or full-time work (remote or from office). If you're interested in working with me, please get in touch using one of the methods below.</p>
+            <a href="mailto:bramit93@gmail.com" class="footer-link">bramit93@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:bramit93@gmail.com">
+                        <i class="fa fa-google"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/branka-mitrovic-428256203/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/BraMi-code">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
