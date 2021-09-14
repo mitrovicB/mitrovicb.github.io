@@ -485,6 +485,9 @@ header {
     padding: .4em;
 }
 
+.copyright {
+    font-size: 15px;
+}
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
